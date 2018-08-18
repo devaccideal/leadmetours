@@ -35,7 +35,7 @@
     if(rev.length > 0)
     {
         tp_b.revolution({
-            delay : 7000,
+            delay : 4000,
             startwidth : 1170,
             startheight : 700,
             startWithSlide : 0,

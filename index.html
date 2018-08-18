@@ -32,11 +32,11 @@
     <body>
 
         <!--PRELOADER START-->
-        <div class="preloader">
+        <!-- <div class="preloader">
             <div class="loader">
                 <img src="images/loader.gif" alt="">
             </div>
-        </div>
+        </div> -->
         <!--PRELOADER END-->
 
         <!--HEADER 01 START-->
@@ -45,13 +45,13 @@
                 <div class="row">
                     <div class="col-sm-3 noPaddingLeft">
                         <div class="logo">
-                            <a href="index.html"><img src="images/logo.png" alt=""></a>
+                            <a href="index.html"><img class="img-fluid" src="images/assets/white_logo_small.png" style="max-height:50px;" alt=""></a>
                         </div>
                         <div class="logo logoText hidden">
                             <h1><a href="index.html">Lead Me Tours</a></h1>
                         </div>
                         <div class="stickyLogo">
-                            <a href="index.html"><img src="images/flogo.png" alt=""></a>
+                            <a href="index.html"><img class="img-fluid" src="images/assets/black_logo_small.png"  style="max-height:50px;" alt=""></a>
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-12">
@@ -65,7 +65,7 @@
                                 <li class="scroll active"><a href="#slider">Home</a> </li>
                                 <li class="scroll"><a href="#about">Destinations</a></li>
                                 <li class="scroll"><a href="#team">Tour Packages</a></li>
-                                <li class="scroll"><a href="#whatwe">About Us / Contact Us</a></li> 
+                                <li class="scroll"><a href="#whatwe">About | Contact Us</a></li> 
                                 <li class="scroll"><a href="#contact">Guest Book & Gallery</a></li>
                             </ul>
                         </nav>
@@ -80,18 +80,58 @@
         <section class="slider" id="slider">
             <div class="tp-banner">
                 <ul>
-                    <li data-transition="cube" data-slotamount="7" data-masterspeed="1000">
-                        <img src="images/slider/s1.jpg"  alt=""> 
+                    <li data-transition="cube" data-slotamount="7" data-masterspeed="500">
+                                <img src="images/assets/headerBackgrounds/header_img_1.jpg"  alt=""> 
+                                <div class="tp-caption sfb"
+                                     data-x="center"
+                                     data-y="center"
+                                     data-hoffset="0"
+                                     data-voffset="35"
+                                     data-speed="1000"
+                                     data-start="1000"
+                                     data-easing="easeInOutCubic">
+                                    <div class="revCon">
+                                        <h5 class="text-uppercase color_white">(May you long live)</h5>
+                                    </div>
+                                </div>
+                                <div class="tp-caption sfb"
+                                     data-x="center"
+                                     data-y="center"
+                                     data-hoffset="0"
+                                     data-voffset="-40"
+                                     data-speed="1000"
+                                     data-start="1000"
+                                     data-easing="Power4.easeOut">
+                                    <div class="revCon">
+                                        <h2 class="lead color_white">Ayubowan !</h2>
+                                    </div>
+                                </div>
+                                <div class="tp-caption sfb"
+                                     data-x="center"
+                                     data-y="center"
+                                     data-hoffset="0"
+                                     data-voffset="148"
+                                     data-speed="1000"
+                                     data-start="1000"
+                                     data-easing="Power4.easeOut">
+                                    <div class="revCon revBtn">
+                                        <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
+                                    </div>
+                                </div>
+                            </li>
+                         
+                    <li data-transition="cube" data-slotamount="7" data-masterspeed="500">
+                        <img src="images/assets/headerBackgrounds/header_img_2.jpg"  alt=""> 
                         <div class="tp-caption sfb"
                              data-x="center"
                              data-y="center"
                              data-hoffset="0"
                              data-voffset="-40"
-                             data-speed="1600"
+                             data-speed="1000"
                              data-start="1000"
                              data-easing="easeInOutCubic">
                             <div class="revCon">
-                                <h5 class="text-uppercase color_white">Welcome !</h5>
+                                <h5 class="text-uppercase color_white">the best round tour with private driver</h5>
                             </div>
                         </div>
                         <div class="tp-caption sfb"
@@ -99,11 +139,50 @@
                              data-y="center"
                              data-hoffset="0"
                              data-voffset="35"
-                             data-speed="2000"
-                             data-start="1500"
+                             data-speed="1000"
+                             data-start="1000"
                              data-easing="Power4.easeOut">
                             <div class="revCon">
-                                <h2 class="lead color_white">Ayubowan !</h2>
+                                <h2 class="lead color_white">Thanks for visiting Leadme Tours</h2>
+                            </div>
+                        </div>
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="148"
+                             data-speed="1000"
+                             data-start="1000"
+                             data-easing="Power4.easeOut">
+                            <div class="revCon revBtn">
+                                <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-transition="cube" data-slotamount="7" data-masterspeed="500">
+                        <img src="images/assets/headerBackgrounds/header_img_3.jpg"  alt=""> 
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="-40"
+                             data-speed="1000"
+                             data-start="1000"
+                             data-easing="easeInOutCubic">
+                            <div class="revCon">
+                                <h5 class="text-uppercase color_white">Flexible tour packages for your satisfaction</h5>
+                            </div>
+                        </div>
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="35"
+                             data-speed="1000"
+                             data-start="1000"
+                             data-easing="Power4.easeOut">
+                            <div class="revCon">
+                                <h2 class="lead color_white">We lead you to the best destinations in Sri Lanka</h2>
                             </div>
                         </div>
                         <div class="tp-caption sfb"
@@ -115,18 +194,18 @@
                              data-start="2000"
                              data-easing="Power4.easeOut">
                             <div class="revCon revBtn">
-                                <a href="#" class="bes_button">Let's get started ! <i class="flaticon-arrows"></i></a>
+                                <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
                             </div>
                         </div>
                     </li>
-                    <li data-transition="cube" data-slotamount="7" data-masterspeed="1000">
-                        <img src="images/slider/s2.jpg"  alt=""> 
+                    <li data-transition="cube" data-slotamount="7" data-masterspeed="500">
+                        <img src="images/assets/headerBackgrounds/header_img_4.jpg"  alt=""> 
                         <div class="tp-caption sfb"
                              data-x="center"
                              data-y="center"
                              data-hoffset="0"
                              data-voffset="-40"
-                             data-speed="1600"
+                             data-speed="1000"
                              data-start="1000"
                              data-easing="easeInOutCubic">
                             <div class="revCon">
@@ -157,46 +236,47 @@
                                 <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
                             </div>
                         </div>
-                    </li>
-                    <li data-transition="cube" data-slotamount="7" data-masterspeed="1000">
-                        <img src="images/slider/s3.jpg"  alt=""> 
-                        <div class="tp-caption sfb"
-                             data-x="center"
-                             data-y="center"
-                             data-hoffset="0"
-                             data-voffset="-40"
-                             data-speed="1600"
-                             data-start="1000"
-                             data-easing="easeInOutCubic">
-                            <div class="revCon">
-                                <h5 class="text-uppercase color_white">we do nothing less than perfect</h5>
+                    </li> 
+                    
+                    <li data-transition="cube" data-slotamount="7" data-masterspeed="500">
+                            <img src="images/assets/headerBackgrounds/header_img_5.jpg"  alt=""> 
+                            <div class="tp-caption sfb"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0"
+                                 data-voffset="-40"
+                                 data-speed="1000"
+                                 data-start="1000"
+                                 data-easing="easeInOutCubic">
+                                <div class="revCon">
+                                    <h5 class="text-uppercase color_white">we do nothing less than perfect</h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="tp-caption sfb"
-                             data-x="center"
-                             data-y="center"
-                             data-hoffset="0"
-                             data-voffset="35"
-                             data-speed="2000"
-                             data-start="1500"
-                             data-easing="Power4.easeOut">
-                            <div class="revCon">
-                                <h2 class="lead color_white">Adventure starts here.</h2>
+                            <div class="tp-caption sfb"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0"
+                                 data-voffset="35"
+                                 data-speed="2000"
+                                 data-start="1500"
+                                 data-easing="Power4.easeOut">
+                                <div class="revCon">
+                                    <h2 class="lead color_white">Adventure starts here.</h2>
+                                </div>
                             </div>
-                        </div>
-                        <div class="tp-caption sfb"
-                             data-x="center"
-                             data-y="center"
-                             data-hoffset="0"
-                             data-voffset="148"
-                             data-speed="2000"
-                             data-start="2000"
-                             data-easing="Power4.easeOut">
-                            <div class="revCon revBtn">
-                                <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
+                            <div class="tp-caption sfb"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset="0"
+                                 data-voffset="148"
+                                 data-speed="2000"
+                                 data-start="2000"
+                                 data-easing="Power4.easeOut">
+                                <div class="revCon revBtn">
+                                    <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
+                        </li> 
                 </ul>
             </div>
             <div class="mouseSlider">
@@ -213,9 +293,10 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="abcontentT">
-                                <h5 class="text-uppercase magenta bold">discover bespoke</h5>
+                                <h5 class="text-uppercase magenta bold">Discover</h5>
                                 <h3 class="lead light color_white">
-                                    a creative studio that is specialized in brand strategy and digital creation.
+                                        We lead you to the best and amazing destinations in Sri Lanka. With flexible tour packages for your satisfaction as well as tours organized as your wish accompanying high quality service.  
+                                        In addition, our services include online bookings, travel agents, transport, accommodation, tour guides and much more. We always concern more about your enjoyment and comfort during your stay in Sri Lanka. 
                                 </h3>
                             </div>
                         </div>
@@ -223,16 +304,16 @@
                 </div>
             </div>
             <div class="abBigtitle">
-                <h1 class="lead">Strategy.Brand.Design</h1>
+                <h1 class="lead">Amazing Sri Lanka</h1>
             </div>
             <div class="aboutBottom">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <div class="abcontentB">
-                                <h5 class="lead bold color_white">We take a bottom-line approach to each project.</h5>
+                                <h5 class="lead bold color_white">Ready to Go ? </h5>
                                 <h3 class="light color_white">
-                                    Our clients consistently see increased traffic, enhanced brand loyalty and new leads thanks to our work.
+                                        Explore the beaches, jungles, tea plantations, temples, and much more from our list of the most beautiful spots in Sri Lanka.
                                 </h3>
                             </div>
                         </div>
@@ -247,8 +328,21 @@
                                 <div class="serImg">
                                     <img src="images/services/1.png" alt="">
                                 </div>
-                                <h6 class="lead text-uppercase bold">web</h6>
-                                <p>Every project is different and that means the approach must be as well.</p>
+                                <h6 class="lead text-uppercase bold text-left">Southern Province</h6>
+                                <p> 
+                                <ul>
+                                        <li> Dutch fort Galle </li>
+                                        <li> Sinharaja forest </li>
+                                        <li> Kanneliya forest </li>
+                                        <li> Unawatuna beach </li>
+                                        <li> Hikkaduwa beach </li>
+                                        <li> Polhena beach </li>
+                                        <li> Mihiripenna beach </li>
+                                        <li> Madol duwa </li>
+                                        <li> Martine Wikramasinghe Museum </li>
+                                        <li> Mirissa </li> 
+                                </ul>
+                                </p>
                                 <a href="#" class="learn">Learn more</a>
                             </div>
                         </div>
@@ -257,8 +351,21 @@
                                 <div class="serImg">
                                     <img src="images/services/2.png" alt="">
                                 </div>
-                                <h6 class="lead text-uppercase bold">mobile</h6>
-                                <p>We help brands connect to their audience through shared values and interests.</p>
+                                <h6 class="lead text-uppercase bold">Central Province</h6>
+                                <p ><ul>
+                                     <li> Sigiriya </li>
+                                        <li> Dambulla </li>
+                                        <li> Sera ella falls </li>
+                                        <li> Sembatuwatta lake </li>
+                                        <li> Pitawala pathana </li>
+                                        <li> Riverston </li>
+                                        <li> Lakegala </li>
+                                        <li> Kandalama reservoir </li>
+                                        <li> Jathika namal uyana </li>
+                                        <li> Huluganga falls </li>
+                                </ul>
+                                       
+                                </p>
                                 <a href="#" class="learn">Learn more</a>
                             </div>
                         </div>
@@ -267,16 +374,99 @@
                                 <div class="serImg">
                                     <img src="images/services/3.png" alt="">
                                 </div>
-                                <h6 class="lead text-uppercase bold">digital</h6>
-                                <p>We build a team around your needs and provide our clients with direct access to everyone.</p>
+                                <h6 class="lead text-uppercase bold">Eastern Province</h6>
+                                <p> <ul>
+                                        <li> Arugam bay  </li>
+                                        <li> Rassagala  </li>
+                                        <li> Buddangala raja maha </li>
+                                        <li> viharaya </li>
+                                        <li> Koneshwaram temple  </li>
+                                        <li> Maduru oya national park  </li>
+                                        <li> Seruwawila rajamaha viharya  </li>
+                                        <li> Pigeon island national park  </li>
+                                        <li> Batticaloa gate, lighthouse, </li>
+                                        <li> lagoon  </li> 
+                                </ul></p>
                                 <a href="#" class="learn">Learn more</a>
                             </div>
                         </div>
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
-                        </div>
+                        <div class="clearfix"></div> 
                     </div>
+
+                    <div class="row">
+                            <div class="col-sm-4">
+                                <div class="singleService">
+                                    <div class="serImg">
+                                        <img src="images/services/4.png" alt="">
+                                    </div>
+                                    <h6 class="lead text-uppercase bold">Sabaragamuwa Province</h6>
+                                    <p><ul> <li> Pinnawala elephant orphanage </li>
+                                        <li> Udawalawa national park </li>
+                                        <li> Sinharaja forest </li>
+                                        <li> Kithulgala </li>
+                                        <li> Bopath ella </li>
+                                        <li> Belilena </li>
+                                        <li> Kirindi ella </li>
+                                        <li> National museum of rathnapura </li>
+                                        <li> Delgamuwa raja mahaviharaya </li>
+                                        <li> Belihul oya </li>
+                                        <li> Seethawaaka wetzone botanical garden </li> 
+                                    <a href="#" class="learn">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="singleService">
+                                    <div class="serImg">
+                                        <img src="images/services/5.png" alt="">
+                                    </div>
+                                    <h6 class="lead text-uppercase bold">North Central Province </h6>
+                                    <p>
+                                            <ul>
+                                                    <li> Anuradhapura historical city </li>
+                                                    <li> Polonnaruwa historical city </li>
+                                                    <li> Minneriya national park </li>
+                                                    <li> Angammedilla national park </li>
+                                                    <li> Hurulu eco park </li>
+                                                    <li> Flood plains national park </li>
+                                                    <li> Willpattu national park </li>
+                                                    <li> Kaudulla national park </li>
+                                                    <li> Mihintale </li>
+                                                    <li> Avukana Buddha statue </li> 
+                                                    </ul>
+                                    </p>
+                                    <a href="#" class="learn">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="singleService">
+                                    <div class="serImg">
+                                        <img src="images/services/6.png" alt="">
+                                    </div>
+                                    <h6 class="lead text-uppercase bold">Western Province</h6>
+                                    <p>
+                                            <ul>
+                                                    <li> Gangaramaya Buddhist temple </li>
+                                                    <li> National museum </li>
+                                                    <li> Viharamaha devi park </li>
+                                                    <li> Kelaniya rajamaha viharaya </li>
+                                                    <li> Dehiwala zoo </li>
+                                                    <li> Mount lavinia </li>
+                                                    <li> Galle face </li>
+                                                    <li> Richmond castle kaluthara </li>
+                                                    <li> Negambo lagoon </li>
+                                                    <li> Guruge nature park </li>
+                                                    <li> Kande viharaya </li>
+                                                    <li> Attidiya bird sanctuary </li> 
+                                                    </ul>
+                                    </p>
+                                    <a href="#" class="learn">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
