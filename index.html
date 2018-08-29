@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> Bespoke - Creative One Page HTML5 Template</title>
+        <title> Lead Me Tours</title>
 
         <!-- ALL CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -19,6 +19,8 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" >
         <link rel="stylesheet" type="text/css" href="css/preset.css" >
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+     
 
         <!--[if lt IE 9]>
               <script src="js/html5shiv.js"></script>
@@ -38,6 +40,9 @@
             </div>
         </div> -->
         <!--PRELOADER END-->
+
+ 
+
 
         <!--HEADER 01 START-->
         <header class="header isSticky" id="header">
@@ -65,8 +70,23 @@
                                 <li class="scroll active"><a href="#slider">Home</a> </li>
                                 <li class="scroll"><a href="#about">Destinations</a></li>
                                 <li class="scroll"><a href="#team">Tour Packages</a></li>
-                                <li class="scroll"><a href="#whatwe">About | Contact Us</a></li> 
+                                <li class="scroll"><a href="#contact">About | Contact Us</a></li> 
                                 <li class="scroll"><a href="#contact">Guest Book & Gallery</a></li>
+                                <li class="scroll"> 
+
+                                        <div style="position: relative;">
+                                                <div id="google_translate_element" style="position: relative; opacity: 0;"></div>
+                                                <button class="translatebtn" style="position: absolute; left: 0; top: 0; z-index: -1;">Translate</button>
+                                        </div>
+                                    <script type="text/javascript">
+                                        function googleTranslateElementInit() {
+                                          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                                        }
+                                        </script>
+                                  
+
+                                </li>
+                                
                             </ul>
                         </nav>
                     </div>
@@ -409,8 +429,6 @@
                                         <li> Kirindi ella </li>
                                         <li> National museum of rathnapura </li>
                                         <li> Delgamuwa raja mahaviharaya </li>
-                                        <li> Belihul oya </li>
-                                        <li> Seethawaaka wetzone botanical garden </li> 
                                     <a href="#" class="learn">Learn more</a>
                                 </div>
                             </div>
@@ -430,8 +448,6 @@
                                                     <li> Flood plains national park </li>
                                                     <li> Willpattu national park </li>
                                                     <li> Kaudulla national park </li>
-                                                    <li> Mihintale </li>
-                                                    <li> Avukana Buddha statue </li> 
                                                     </ul>
                                     </p>
                                     <a href="#" class="learn">Learn more</a>
@@ -454,19 +470,86 @@
                                                     <li> Galle face </li>
                                                     <li> Richmond castle kaluthara </li>
                                                     <li> Negambo lagoon </li>
-                                                    <li> Guruge nature park </li>
-                                                    <li> Kande viharaya </li>
-                                                    <li> Attidiya bird sanctuary </li> 
                                                     </ul>
                                     </p>
                                     <a href="#" class="learn">Learn more</a>
                                 </div>
                             </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
+                            <div class="clearfix"></div> 
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="singleService">
+                                <div class="serImg">
+                                    <img src="images/services/7.png" alt="">
+                                </div>
+                                <h6 class="lead text-uppercase bold">North Western Province</h6>
+                                <p>
+                                <ul>
+                                <li> Wilpattuwa national park </li>
+                                <li> Munneshwaram kovil </li>
+                                <li> Ridi viharaya </li>
+                                <li> Athugala rock </li>
+                                <li> Anawilundawa bird sanctuary </li>
+                                <li> Kalpitiya lagoon and beach </li>
+                                <li> point </li>
+                                <li> Ethkada raja maha viharaya </li>
+                                <li> Paduwasnuwara kingdom </li>
+                                </ul>
+                                <a href="#" class="learn">Learn more</a>
                             </div>
                         </div>
+                        <div class="col-sm-4">
+                            <div class="singleService">
+                                <div class="serImg">
+                                    <img src="images/services/8.png" alt="">
+                                </div>
+                                <h6 class="lead text-uppercase bold">Uva Province </h6>
+                                <p>
+                                <ul>
+                                <li> Ravana falls </li>
+                                <li> Babarakanda waterfalls </li>
+                                <li> Kataragama </li>
+                                <li> Dunhinda waterfalls </li>
+                                <li> Buduruvagala </li>
+                                <li> Demodara nine arch bridge </li>
+                                <li> Diyaluma falls </li>
+                                <li> Adisham bungalow </li>
+                                <li> Namunukula mountains </li>
+                                <li> Little adams peak </li>
+                                </ul>
+                                </p>
+                                <a href="#" class="learn">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="singleService">
+                                <div class="serImg">
+                                    <img src="images/services/9.png" alt="">
+                                </div>
+                                <h6 class="lead text-uppercase bold">Northern Province</h6>
+                                <p>
+                                <ul>
+                                <li> Nallur </li>
+                                <li> Neduntheevu </li>
+                                <li> Nagadeepaya </li>
+                                <li> Jaffna fort </li>
+                                <li> Point Pedro </li>
+                                <li> Madhu church </li>
+                                <li> Nanthi lagoon </li>
+                                <li> Keetheeswaram temple </li>
+                                <li> Archaeological museum Jaffna </li>
+                                </ul>
+                                </p>
+                                <a href="#" class="learn">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <a href="#" class="bes_button">Learn more about us <i class="flaticon-arrows"></i></a>
+                        </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -476,90 +559,155 @@
         <section class="team" id="team">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div class="sectionTitle epr200">
-                            <h5 class="magenta text-uppercase bold">meet the team</h5>
-                            <h3 class="lead">Powerful web services for your modern digital needs.</h3>
+                    <div class="col-lg-12 text-center">
+                        <div class="sectionTitle " style="margin-top: 40px;">
+                            <p>These are our tour packages which will lead you to the best and for the most beautiful
+                                places in sri lanka. We provide you the best and
+                                affordable tour packages with accommodations. And we are sure that you will love these
+                                packages and will spend a wonderful time in Sri
+                                Lanka as well.
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container"> 
+                <div class="row">
+                    <a href="#modal1" rel="modal:open">
+                        <div class="col-sm-4 sm_class">
+                            <div class="singleTeam">
+                                <img src="images/tourpacks/LM1.jpg" alt="">
+                                <div class="teamDeg">
+                                    <h4>Classic Mini</h4>
+                                    <p>5 nights / 6 Days </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-sm-4 sm_class">
+                        <div class="singleTeam">
+                            <img src="images/tourpacks/LM2.jpg" alt="">
+                            <div class="teamDeg">
+                                <h4>Cultural explore</h4>
+                                <p>3 nights/ 4 days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 sm_class">
+                        <div class="singleTeam">
+                            <img src="images/tourpacks/LM3.jpg" alt="">
+                            <div class="teamDeg">
+                                <h4>Adventure Ride</h4>
+                                <p>6 Nights / 7 Days</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-sm-4 sm_class">
+                        <div class="singleTeam">
+                            <img src="images/tourpacks/LM4.jpg" alt="">
+                            <div class="teamDeg">
+                                <h4>Hill Side Discover</h4>
+                                <p>10 Nights / 11 Days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 sm_class">
+                        <div class="singleTeam">
+                            <img src="images/tourpacks/LM5.jpg" alt="">
+                            <div class="teamDeg">
+                                <h4>Wild Life and Nature</h4>
+                                <p>14 Nights / 15 Days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 sm_class">
+                        <div class="singleTeam">
+                            <img src="images/tourpacks/ML6.jpg" alt="">
+                            <div class="teamDeg">
+                                <h4>Romance</h4>
+                                <p>20 Nights / 1 Days</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="sectionTitle " style="margin-top: 40px;">
+                            <p>
+                                Our packages suites all who are hoping to spend their vacation in Sri Lanka. It will
+                                make your family, kids, husband, wife
+                                and everyone happy, feel relaxed with all comforts and excited with adventure. </p>
+                            <p>
+                                Other than these packages you can plan your own tour by selecting the best places as
+                                your wish and we will take you in the ride.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="teamTop">
-                        <div class="col-sm-6">
-                            <div class="teamBig">
-                                <img src="images/team/1b.jpg" alt="">
-                            </div>
+                    <div class="col-lg-12 text-center">
+                        <div class="sectionTitle bigTitle2">
+                            <h5 class="text-uppercase bold">Enjoyable and Attractive thongs to do in Sri Lanka</h5>
+                            <h2 class="lead">Sri Lanka</h2>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="testmonial" id="testmonial">
-                                <div class="singleTestm">
-                                    <p>
-                                        We work with big brands and agencies through to small businesses and startups in Kent and beyond.
-                                    </p>
-                                    <div class="teamDeg">
-                                        <h4 class="magenta">Richie Meldrum</h4>
-                                        <p>Creative Director</p>
-                                    </div>
-                                </div>
-                                <div class="singleTestm">
-                                    <p>
-                                        We work with big brands and agencies through to small businesses and startups in Kent and beyond.
-                                    </p>
-                                    <div class="teamDeg">
-                                        <h4 class="magenta">Richie Meldrum</h4>
-                                        <p>Creative Director</p>
-                                    </div>
-                                </div>
-                                <div class="singleTestm">
-                                    <p>
-                                        We work with big brands and agencies through to small businesses and startups in Kent and beyond.
-                                    </p>
-                                    <div class="teamDeg">
-                                        <h4 class="magenta">Richie Meldrum</h4>
-                                        <p>Creative Director</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-3 sm_class">
-                        <div class="singleTeam">
-                            <img src="images/team/1.jpg" alt="">
-                            <div class="teamDeg">
-                                <h4>Pauline Russell</h4>
-                                <p>Senior Account Director</p>
-                            </div>
-                        </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <ul>
+
+                            <li> Train rides </li>
+                            <li> safari rides</li>
+                            <li> shopping </li>
+                            <li> Vesak festival</li>
+                            <li> White water rafting</li>
+                            <li> elephant feeding</li>
+                            <li> Jet Ski </li>
+                            <li> colourful kandy perahera</li>
+                        </ul>
                     </div>
-                    <div class="col-sm-3 sm_class">
-                        <div class="singleTeam">
-                            <img src="images/team/2.jpg" alt="">
-                            <div class="teamDeg">
-                                <h4>Joel Stevens</h4>
-                                <p>Digital Producer</p>
-                            </div>
-                        </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li> Scuba diving </li>
+                            <li> elephant rides</li>
+                            <li> stilt fishing </li>
+                            <li> tea plantaion</li>
+                            <li> Snorkelling </li>
+                            <li> surfing & wind surfing </li>
+                            <li> river safari </li>
+                            <li> Sri Lankan arts</li>
+                        </ul>
                     </div>
-                    <div class="col-sm-3 sm_class">
-                        <div class="singleTeam">
-                            <img src="images/team/3.jpg" alt="">
-                            <div class="teamDeg">
-                                <h4>Marah Houlihan</h4>
-                                <p>Senior Account Manager</p>
-                            </div>
-                        </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li> Swimming with giant turtles </li>
+                            <li> rope swing</li>
+                            <li> rock climbing </li>
+                            <li> ambalangoda masks</li>
+                            <li> Boat rides </li>
+                            <li> turtle feeding</li>
+                            <li> cycling in country side </li>
+                            <li> gem beauty</li>
+                        </ul>
                     </div>
-                    <div class="col-sm-3 sm_class">
-                        <div class="singleTeam">
-                            <img src="images/team/4.jpg" alt="">
-                            <div class="teamDeg">
-                                <h4>David Dennis</h4>
-                                <p>Head of Operations</p>
-                            </div>
-                        </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li> Whale watching </li>
+                            <li> bird watching </li>
+                            <li> mountain hikes </li>
+                            <li> Handicrafts</li>
+                            <li> Turtle Hatchery </li>
+                            <li> Fish spa </li>
+                            <li> Ancient Ayurveda treatments</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -567,7 +715,7 @@
         <!--TEAM END-->
 
         <!--WHAT WE DO START-->
-        <section class="whatwe" id="whatwe">
+        <!-- <section class="whatwe" id="whatwe">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -579,136 +727,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--WHAT WE DO END-->
+ 
 
-        <!--OUR WORK START-->
-        <section class="ourwork" id="ourwork">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="sectionTitle bigTitle">
-                            <h5 class="magenta text-uppercase bold">meet the team</h5>
-                            <h2 class="lead">we create masterpieces.</h2>
-                            <p>We believe in coming up with original ideas and turning them into digital work that is both innovative and measurable.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 noPadding">
-                        <div id="workCarousel">
-                            <div class="singleWork">
-                                <img src="images/work/1.jpg" alt="">
-                                <div class="singleWorkContent">
-                                    <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
-                                    <h2 class="lead">Adventure Begins Here.</h2>
-                                    <div class="workTag">
-                                        <a href="#">Branding</a>/
-                                        <a href="#">Web Design</a>
-                                    </div>
-                                    <a class="work_btn" href="work-detail.html"><i class="flaticon-arrows"></i></a>
-                                </div>
-                            </div>
-                            <div class="singleWork">
-                                <img src="images/work/2.jpg" alt="">
-                                <div class="singleWorkContent">
-                                    <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
-                                    <h2 class="lead">Adventure Begins Here.</h2>
-                                    <div class="workTag">
-                                        <a href="#">Branding</a>/
-                                        <a href="#">Web Design</a>
-                                    </div>
-                                    <a class="work_btn" href="work-detail.html"><i class="flaticon-arrows"></i></a>
-                                </div>
-                            </div>
-                            <div class="singleWork">
-                                <img src="images/work/3.jpg" alt="">
-                                <div class="singleWorkContent">
-                                    <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
-                                    <h2 class="lead">Adventure Begins Here.</h2>
-                                    <div class="workTag">
-                                        <a href="#">Branding</a>/
-                                        <a href="#">Web Design</a>
-                                    </div>
-                                    <a class="work_btn" href="work-detail.html"><i class="flaticon-arrows"></i></a>
-                                </div>
-                            </div>
-                            <div class="singleWork">
-                                <img src="images/work/4.jpg" alt="">
-                                <div class="singleWorkContent">
-                                    <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
-                                    <h2 class="lead">Adventure Begins Here.</h2>
-                                    <div class="workTag">
-                                        <a href="#">Branding</a>/
-                                        <a href="#">Web Design</a>
-                                    </div>
-                                    <a class="work_btn" href="work-detail.html"><i class="flaticon-arrows"></i></a>
-                                </div>
-                            </div>
-                            <div class="singleWork">
-                                <img src="images/work/5.jpg" alt="">
-                                <div class="singleWorkContent">
-                                    <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
-                                    <h2 class="lead">Adventure Begins Here.</h2>
-                                    <div class="workTag">
-                                        <a href="#">Branding</a>/
-                                        <a href="#">Web Design</a>
-                                    </div>
-                                    <a class="work_btn" href="work-detail.html"><i class="flaticon-arrows"></i></a>
-                                </div>
-                            </div>
-                            <div class="singleWork">
-                                <img src="images/work/6.jpg" alt="">
-                                <div class="singleWorkContent">
-                                    <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
-                                    <h2 class="lead">Adventure Begins Here.</h2>
-                                    <div class="workTag">
-                                        <a href="#">Branding</a>/
-                                        <a href="#">Web Design</a>
-                                    </div>
-                                    <a class="work_btn" href="work-detail.html"><i class="flaticon-arrows"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--OUR WORK END-->
-
-        <!--CHOOSE US START-->
-        <section class="chooseus" id="chooseus">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="sectionTitle bigTitle2">
-                            <h5 class="magenta text-uppercase bold">why choose us?</h5>
-                            <h2 class="lead">we dont just build websites, we build brands.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-5">
-                        <div class="chooseUsContent">
-                            <h3 class="magenta normal">Our team works shoulder-to- shoulder, ensuring a project is never created in isolation.</h3>
-                            <p>Every project has its own unique goals and vision. Whatever your project demands, our extended network of strategists, creatives and technology specialists is always eager to pitch in. We know it helps to know good people.</p>
-                            <div class="signatureandname">
-                                <h4>Richie Meldrum</h4>
-                                <img src="images/signature.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="imagesDiv chooseUsImg">
-                            <img src="images/choose.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--CHOOSE US END-->
+        
 
         <!--TESTMONIAL START-->
         <section class="testmonialSec" id="testmonialSec">
@@ -717,292 +740,80 @@
                     <div class="col-lg-12">
                         <div id="testmonialCaro">
                             <div class="singleTestmn">
-                                <p>There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. By far one of the worlds best known brands.</p>
+                                <p>There are many tour organizers in Sri Lanka but LeadMeTours are the best in business ! , highly recomend to try ! .</p>
                                 <div class="testAut">
                                     <h4>Jack Lawson</h4>
                                     <p>New york - USA</p>
                                 </div>
                             </div>
                             <div class="singleTestmn">
-                                <p>There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. By far one of the worlds best known brands.</p>
+                                <p>There are many tour organizers in Sri Lanka but LeadMeTours are the best in business ! , highly recomend to try ! .</p>
                                 <div class="testAut">
                                     <h4>Jack Lawson</h4>
                                     <p>New york - USA</p>
                                 </div>
                             </div>
-                            <div class="singleTestmn">
-                                <p>There are design companies, and then there are user experience, design, consulting, interface design, brilliant, and professional. By far one of the worlds best known brands.</p>
-                                <div class="testAut">
-                                    <h4>Jack Lawson</h4>
-                                    <p>New york - USA</p>
-                                </div>
-                            </div>
+                             
+                            
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
+            
         </section>
         <!--TESTMONIAL END-->
-
-        <!--CLIENT START-->
-        <section class="client" id="client">
-            <div class="container">
+        <div class="container" style="margin-top: 30px;">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <div class="sectionTitle bigTitle3">
-                            <h5 class="text-uppercase bold">who we worked for</h5>
-                            <h2 class="lead">Our client experience</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/1.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/2.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/3.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/4.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/5.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/6.jpg" alt=""></a>
-                        </div>
-                    </div> 
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/7.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/8.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/9.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/10.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/11.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/12.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/13.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/14.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/15.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-4">
-                        <div class="singleClient">
-                            <a href="#"><img src="images/client/16.jpg" alt=""></a>
+                        <div class="sectionTitle bigTitle"> 
+                            <h2 class="lead">We belive in customer satisfaction !</h2>
+                            <p> our services include online bookings, travel agents, transport, accommodation, tour guides and much more. We always concern
+                                    more about your enjoyment and comfort during your stay in Sri Lanka.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--CLIENT END-->
+       
 
-        <!--BLOG START-->
-        <section class="blogSection" id="blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="sectionTitle bigTitle2">
-                            <h5 class="text-uppercase bold color_white">BLOGS AND INSIGHTS</h5>
-                            <h2 class="lead color_white">Our thoughts</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 noPadding">
-                        <div class="singleBlog">
-                            <div class="blogThumb">
-                                <img src="images/blog/1.jpg" alt="">
-                            </div>
-                            <div class="blogDec">
-                                <div class="blogDate">December, 20, 2016</div>
-                                <h2 class="blogTitle"><a href="blog-detail.html">How to Approach Social Media as a Small Business.</a></h2>
-                                <div class="bperaDiv">
-                                    <p>Everti doctus est et, ei vis habemus tibique. Scriptorem theophrastus in sit. Stet gubergren ex per, denique consetetur cotidieque ad nec. </p>
-                                </div>
-                                <div class="blogBott">
-                                    <div class="bauthor">By<a href="#">John Doe</a></div>
-                                    <div class="blogComs"><img src="images/comment.png" alt=""><a href="#">2 Comments</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 noPadding">
-                        <div class="singleBlog">
-                            <div class="blogThumb">
-                                <img src="images/blog/2.jpg" alt="">
-                            </div>
-                            <div class="blogDec">
-                                <div class="blogDate">December, 20, 2016</div>
-                                <h2 class="blogTitle"><a href="blog-detail.html">Have there been any good startups founded since 2016?</a></h2>
-                                <div class="bperaDiv">
-                                    <p>Elit facer constituto ex vis, te vide pereu rationibus nec. Nec iriure commune fastidii.</p>
-                                </div>
-                                <div class="blogBott">
-                                    <div class="bauthor">By<a href="#">John Doe</a></div>
-                                    <div class="blogComs"><img src="images/comment.png" alt=""><a href="#">2 Comments</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 noPadding">
-                        <div class="singleBlog">
-                            <div class="blogThumb">
-                                <img src="images/blog/3.jpg" alt="">
-                            </div>
-                            <div class="blogDec">
-                                <div class="blogDate">December, 20, 2016</div>
-                                <h2 class="blogTitle"><a href="blog-detail.html">Design & Usability From A Marketing Perspective.</a></h2>
-                                <div class="bperaDiv">
-                                    <p>Corpora explicari as reeqe intel legam temporibus in eum, te ius recusabo argumentum repudiandae.</p>
-                                </div>
-                                <div class="blogBott">
-                                    <div class="bauthor">By<a href="#">John Doe</a></div>
-                                    <div class="blogComs"><img src="images/comment.png" alt=""><a href="#">2 Comments</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--BLOG END-->
-
-        <!--SAY HELLO START-->
-        <section class="sayhello" id="sayhello">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="sectionTitle bigTitle2">
-                            <h5 class="text-uppercase bold">we would love to hear from you</h5>
-                            <h2 class="lead">say hello!</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="singleSay saypaddingR text-center">
-                            <div class="sayThumb">
-                                <img src="images/say/1.jpg" alt="">
-                                <h3 class="text-uppercase">San fransisco</h3>
-                            </div>
-                            <div class="sayDec">
-                                <h6 class="bold text-uppercase">san fransisco office</h6>
-                                <p>70 Greenview Ave.</p>
-                                <p>Temple Hills, MD 20748</p>
-                                <h6 class="bold">1.800.987.6543</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="singleSay saypaddingl text-center">
-                            <div class="sayThumb">
-                                <img src="images/say/2.jpg" alt="">
-                                <h3 class="text-uppercase">new york</h3>
-                            </div>
-                            <div class="sayDec">
-                                <h6 class="bold text-uppercase">new york office</h6>
-                                <p>70 Greenview Ave.</p>
-                                <p>Temple Hills, MD 20748</p>
-                                <h6 class="bold">1.800.987.6543</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--SAY HELLO END-->
-
+        
         <!--CONTACT START-->
         <section class="contact" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="contactInner">
-                            <h3 class="magenta light">Have a question? or just say hello!</h3>
-                            <div class="contactForm">
-                                <form action="#" method="post" id="contactForm">
+                            <h3 class="magenta light">
+                                We have being providing the pleasure of experiencing the cultural, historical, and the amazing insights of Sri Lanka since 3
+years. I am Yasitha Nethmina, and I help you to explore this paradise while engaging in different joyful, adventurous activities
+which you won’t forget in your lifetime. From your arrival to your departure we will make thisa
+We are bound to give all the comforts of travelling in Sri Lanka.
+Experience, explore, enjoy and feel free with Lead me Tours…
+
+                            </h3>
+                            
                                     <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="single_form">
-                                                <label for="con_name">Name:</label>
-                                                <input type="text" name="con_name" id="con_name" class="required">
+                                        <div class="col-md-6">
+                                            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=unawatuna&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/google-maps/">pureblack.de</a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single_form" style="">
+                                                <label >  LeadMeTours , Unawatuna , Galle , <br><br>Sri Lanka</label> 
                                             </div>
-                                        </div>
-                                        <div class="col-sm-6">
                                             <div class="single_form">
-                                                <label for="con_phone">Phone:</label>
-                                                <input type="text" name="con_phone" id="con_phone" class="required">
+                                                <label >Email : contact@leadmetours.com</label> 
                                             </div>
-                                        </div>
-                                        <div class="col-sm-6">
                                             <div class="single_form">
-                                                <label for="con_email">Email:</label>
-                                                <input type="email" name="con_email" id="con_email" class="required">
+                                                <label >Phone : +94 777 111 2222</label> 
                                             </div>
-                                        </div>
-                                        <div class="col-sm-6">
                                             <div class="single_form">
-                                                <label for="con_company">Company:</label>
-                                                <input type="text" name="con_company" id="con_company" class="required">
+                                                <label >  facebook.com/leadmetours</label> 
                                             </div>
+                                            <div class="revCon revBtn">
+                                                    <a href="mailto:contact@leadmetours.com" class="bes_button"> Inquiry Us  <i class="flaticon-arrows"></i></a>
+                                                </div>
                                         </div>
-                                        <div class="col-sm-12">
-                                            <div class="single_form">
-                                                <label for="con_msg">Message:</label>
-                                                <textarea id="con_msg" name="con_msg" class="required"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 text-center">
-                                            <input type="submit" value="SEND" id="con_submit" class="bes_button">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+                                    </div> 
+                            
                         </div>
                     </div>
                 </div>
@@ -1019,20 +830,23 @@
                             <div class="textWidget">
                                 <div class="flogow">
                                     <div class="flogo">
-                                        <a href="index.html"><img src="images/flogo.png" alt=""></a>
+                                        <a href="index.html"><img src="images/assets/black_logo_small.png" height="150" alt=""></a>
                                     </div>
                                     <div class="logo logoText hidden">
-                                        <h1><a href="index.html">bespoke</a></h1>
+                                        <h1><a href="index.html">LeadMeTours</a></h1>
                                     </div>
                                 </div>
-                                <h3 class="widgetTitle">About <b>bespoke</b></h3>
-                                <p>Quisque nec nunc libero fringilla mollis. Nulla quis orci luctus augue. Vestibulum dapibus, mauris nec malesuada fames ac fringilla mollis turpis velit.</p>
+                                <h3 class="widgetTitle">About <b>LEADMETOURS</b></h3>
+                                <p>
+                                        We have being providing the pleasure of experiencing the cultural, historical, and the amazing insights of Sri Lanka since 3
+                                        years. I am Yasitha Nethmina, and I help you to explore this paradise while engaging in different joyful, adventurous activities
+                                        which you won’t forget in your lifetime.
+
+
+                                </p>
                                 <div class="socialIcon">
                                     <a class="fb" href="#"><i class="fa fa-facebook"></i></a>
-                                    <a class="tw" href="#"><i class="fa fa-twitter"></i></a>
-                                    <a class="gp" href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a class="dr" href="#"><i class="fa fa-dribbble"></i></a>
-                                    <a class="be" href="#"><i class="fa fa-behance"></i></a>
+                                    <a class="tw" href="#"><i class="fa fa-twitter"></i></a>  
                                 </div>
                             </div>
                         </aside>
@@ -1040,16 +854,10 @@
                     <div class="col-sm-6">
                         <aside class="widget">
                             <div class="newsletterwid">
-                                <h3 class="widgetTitle">Newsletter <b>Signup</b></h3>
-                                <div class="newsletter">
-                                    <form action="#" method="post" id="subscriptForm">
-                                        <input type="email" name="sub_email" id="sub_email" placeholder="Enter your email address.">
-                                        <input type="submit" name="sub_submit" id="sub_submit" value="SUBSCRIBE">
-                                    </form>
-                                </div>
+                                 
                                 <div class="fooInfo">
-                                    <p><i class="flaticon-pin"></i><b>Head office:</b> 70 Greenview Ave. Temple Hills, MD 20748</p>
-                                    <p><i class="flaticon-technology"></i><b>1.800.987.6543</b></p>
+                                    <p><i class="flaticon-pin"></i><b>Head office:</b> Lead Me Tours Pvt Ltd , Unawatuna , Galle,  SriLanka</p>
+                                    <p><i class="flaticon-technology"></i><b>94 777 111 2222</b></p>
                                 </div>
                             </div>
                         </aside>
@@ -1064,7 +872,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p class="copyPera">&COPY; 2017 Bespoke. All Rights Reserved. Nasfactor.com</p>
+                        <p class="copyPera">&COPY; 2018 SixBaseIT. All Rights Reserved. Nasfactor.com</p>
                     </div>
                 </div>
             </div>
@@ -1087,8 +895,11 @@
         </div>
 
         <a id="backToTop" href="#"><i class="fa fa-angle-double-up"></i></a>
+ 
 
         <!-- ALL JS -->
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/owl.carousel.js"></script>
@@ -1096,5 +907,10 @@
         <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
         <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
         <script type="text/javascript" src="js/theme.js"></script>
+
+                
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+      
+        
     </body>
 </html>
