@@ -3379,3 +3379,15 @@ ul.list_ok li:before {
 	-webkit-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 }
+
+.parent {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.child {
+	height: 100%;
+	right: 0;
+	top: 0;
+}
